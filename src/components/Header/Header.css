@@ -1,0 +1,7 @@
+nav {
+	display: flex;
+	justify-content: center;
+	min-height: 8vh;
+    padding: 2vh;
+    background-color: rgb(240, 219, 219);
+}

@@ -1,0 +1,34 @@
+/* блок кнопок */
+
+.ticket__buttonsList {
+	position: absolute;
+	top: 137px;
+	left: 157px;
+}
+
+.buttonsList__item {
+	width: 107px;
+	height: 34px;
+	background: #ffffff;
+	border: 1px solid #b7bac1;
+	border-radius: 10px;
+	margin: 0 10px;
+	padding: 6px 7px 7px 3px;
+
+	color: #5c5c5c;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.buttonsList__item span {
+	font-size: 13px;
+}
+
+.buttonsList__item.active {
+	border: none;
+	font-weight: 700;
+	color: #232323;
+}

@@ -1,0 +1,103 @@
+#form {
+	margin: 68px auto;
+	width: 962px;
+	/* position: absolute; */
+}
+
+/* контейнер элементов для данных */
+.elements {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	background: #5c87db;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.elements:last-child {
+	background: #ffffff;
+	height: 86px;
+	position: relative;
+}
+
+/* кнопка */
+.submit {
+	position: absolute;
+	right: 23px;
+	top: 23px;
+
+	/* основной */
+
+	width: 158px;
+	height: 40px;
+
+	background: #5c87db;
+	border-radius: 10px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 140%;
+	/* or 20px */
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: #ffffff;
+}
+
+/* стилизация инпутов */
+
+.aviaitem {
+	width: 208px;
+	margin: 12.5px;
+}
+
+.elements label {
+	width: 37px;
+	height: 13px;
+	left: 0.11px;
+	top: -13px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 13px;
+	/* identical to box height */
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+.elements input {
+	width: 100%;
+	height: 40px;
+	background: #ffffff;
+	padding: 5%;
+	font-family: "Roboto";
+	font-weight: 700;
+}
+
+.elements input::placeholder {
+	position: absolute;
+	width: 96px;
+	height: 16px;
+	left: 12px;
+	top: calc(50% - 16px / 2);
+
+	/* основной жирный */
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	color: #b7bac1;
+}

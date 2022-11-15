@@ -1,0 +1,170 @@
+.ticket {
+	box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+	position: relative;
+}
+
+.ticket__logoContainer {
+	width: 132px;
+	position: relative;
+	height: 200px;
+}
+
+.sticker {
+	text-transform: capitalize;
+	position: absolute;
+	height: 26px;
+	left: 0px;
+	top: 0px;
+	background: #8ba5d8;
+	border-radius: 15px 0px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	width: 132px;
+	height: 26px;
+}
+
+.logo {
+	position: absolute;
+	top: 54px;
+	left: 47px;
+}
+
+.company {
+	position: absolute;
+	margin-top: 8px;
+	width: 86px;
+	height: 21px;
+	left: 23px;
+	top: 101px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #5c5c5c;
+}
+
+/* блоки с датой и городом */
+
+.ticket__depart {
+	left: 157px;
+}
+
+.ticket__arrive {
+	left: 584px;
+}
+
+.block {
+	position: absolute;
+	width: 110px;
+	height: 109px;
+	top: 0px;
+	background: #ffffff;
+	width: 110px;
+	height: 109px;
+}
+
+.time {
+	position: absolute;
+	width: 62px;
+	height: 28px;
+	left: 0px;
+	top: 41px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+}
+
+.city {
+	position: absolute;
+	width: 110px;
+	height: 32px;
+	left: 0px;
+	top: 77px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: #5c5c5c;
+	text-transform: capitalize;
+}
+
+/* блок информации о рейсе */
+
+.ticket__info {
+	position: absolute;
+	top: 35px;
+	left: 250px;
+	width: 300px;
+}
+
+.info__airports {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.info__airports span {
+	width: 27px;
+	height: 20px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: center;
+	color: #b7bac1;
+}
+
+.info__line {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info__line_circle {
+	width: 8px;
+	height: 8px;
+	background: #c4c4c4;
+	border-radius: 50%;
+}
+
+.info__line_line {
+	height: 0px;
+	width: 269px;
+	border: 1px solid #b7bac1;
+}
+
+.flightTime {
+	height: 20px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: center;
+	color: #b7bac1;
+}
+
+/* блок сервисов */
+
+.ticket__services {
+	position: absolute;
+	width: 50px;
+	height: 110px;
+	left: 720px;
+	top: 0px;
+	background-color: rgb(242, 228, 228);
+}
+
+.baggage {
+	position: absolute;
+	right: 0px;
+	top: 36px;
+}
+
+.bag {
+	position: absolute;
+	left: 0px;
+	top: 53px;
+}

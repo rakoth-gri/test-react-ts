@@ -1,0 +1,10 @@
+/* блок цены  */
+.priceBlock {
+	width: 190px;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	color: #232323;
+	border-left: 1px solid #dde3ee;
+}
